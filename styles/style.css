@@ -1,0 +1,84 @@
+
+body {
+  background-image: url("../images/background.png");
+  /* background-repeat: no-repeat; */
+  background-size: 100%;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.phone-title {
+  color: white
+}
+
+.phone-desc {
+  color: #86BFD3;
+}
+
+.row-main {
+  padding: 10% 25%;
+}
+
+.phone-section {
+  background-color: #013243;
+  text-align: center;
+  border-radius: 10px 0 0 10px;
+  padding: 80px 30px 0;
+}
+
+.phone-img {
+  width: 100%;
+  height: auto;
+
+}
+
+.login-section {
+  background-color: #FFFFFF;
+  border: 1px solid #808080;
+  border-radius: 0 10px 10px 0;
+  padding: 80px 30px 0;
+}
+
+.btn-primary {
+  background-color: #013243;
+  border-color: #013243;
+  height: 60px;
+}
+
+
+@media screen and (max-width: 800px) { 
+
+  body {
+    background-image: url("../images/background.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* object-fit: contain; */
+  }
+
+  .row-main {
+    padding: 2% 10%;
+  }
+
+  .phone-section {
+    border-radius: 10px 10px 0 0;
+    padding: 50px 30px 0;
+  }
+
+  .login-section {
+    border-radius: 0 0 10px 10px;
+    padding: 50px 30px;
+  }
+
+  .btn-primary {
+    height: auto;
+  }
+
+}
